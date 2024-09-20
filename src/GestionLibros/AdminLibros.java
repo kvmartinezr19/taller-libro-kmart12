@@ -12,17 +12,18 @@ public class AdminLibros {
 
         System.out.println("Libro 1: ");
         libroUno.mostrarDatosLibros();
+        System.out.println("********************************");
         System.out.println("Libro 2: ");
         libroDos.mostrarDatosLibros();
+        System.out.println("********************************");
         System.out.println("Libro 3:");
         libroTres.mostrarDatosLibros();
-
-        System.out.println("Libro 1 Modificado:");
-        System.out.println("Titulo: " +libroUno.getTitulo());
-        System.out.println("Autor: " +libroUno.getAutor());
+        System.out.println("********************************");
         libroUno.setNumeroPaginas(400);
-        System.out.println("Numero Paginas: " +libroUno.getNumeroPaginas());
-        System.out.println("Año Publicacion: " +libroUno.getAnoPublicacion());
+        System.out.println("Libro 1 Modificado:");
+        libroUno.mostrarDatosLibros();
+
+
 
 
     }
